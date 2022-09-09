@@ -2,12 +2,9 @@ package ProductRepo;
 
 import model.Product;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
 public class ProductRepo {
-
     //products
     private Map<Integer, Product> products = new HashMap<>();
 
@@ -15,12 +12,20 @@ public class ProductRepo {
 
     }
     //list()
-    public Map<Integer, Product> getAllProducts() {
-        return this.products;
+    public List<Product> listOfProducts() {
+        ArrayList<Product> productList = new ArrayList<>(products.values());
+        return productList;
     }
-    //get()
-    public Product getProduct(Integer productId) {
+
+    //getById()
+    public Product getProductById(Integer productId) {
         return products.get(productId);
+    }
+
+    //addProduct
+    public Product addProduct(Product product) {
+        Product addingProducts = products.put(product.getProductId(), product);
+        return addingProducts;
     }
 
     @Override

@@ -1,8 +1,6 @@
 package model;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
 public class Order {
 
@@ -10,14 +8,12 @@ public class Order {
     private int orderId;
 
     // products
-    private Map<Integer, Product> products = new HashMap<>();
+    private List<Product> products;
+//    private Product[] products;
 
-    public Order() {
-
-    }
-    
-    public Map<Integer, Product> getAllProducts() {
-        return this.products;
+    public Order(Integer orderId, List<Product> products) {
+        this.orderId = orderId;
+        this.products = products;
     }
 
     public int getOrderId() {
@@ -26,27 +22,6 @@ public class Order {
 
     public void setOrderId(int orderId) {
         this.orderId = orderId;
-    }
-
-    public Map<Integer, Product> getProducts() {
-        return products;
-    }
-
-    public void setProducts(Map<Integer, Product> products) {
-        this.products = products;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Order order = (Order) o;
-        return orderId == order.orderId && Objects.equals(products, order.products);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(orderId, products);
     }
 
     @Override

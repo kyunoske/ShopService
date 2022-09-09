@@ -1,10 +1,9 @@
 package OrderRepo;
 
 import model.Order;
+import model.Product;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
 public class OrderRepo {
 
@@ -16,15 +15,17 @@ public class OrderRepo {
     }
 
     // list()
-    public Map<Integer, Order> getAllOrders() {
-        return this.orders;
+    public List<Order> listOfOrders() {
+        ArrayList<Order> orderList = new ArrayList<>(orders.values());
+        return orderList;
     }
-    // get()
+    // getById()
     public Order getOrder(Integer orderId) {
         return orders.get(orderId);
     }
-    // add()
-    public Order addOrder(Integer number, Order order) {
+
+    // addOrder()
+    public Order addOrder(Order order) {
         return orders.put(order.getOrderId(), order);
     }
 
