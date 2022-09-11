@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aa82427-c54a-4fa6-bf4b-c3f197affa4d" name="Changes" comment="add getters/ setters and get/get all methods">
+    <list default="true" id="5aa82427-c54a-4fa6-bf4b-c3f197affa4d" name="Changes" comment="fixed array for orders and methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrderRepo/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrderRepo/OrderRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProductRepo/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductRepo/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CustomerRepo/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CustomerRepo/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -52,9 +52,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "last_opened_file_path": "/Users/ryanshade/IdeaProjects/ShopService"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -105,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662718950326</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed array for orders and methods">
+      <created>1662745116076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662745116076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add junit" />
     <MESSAGE value="add getters/ setters and get/get all methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="add getters/ setters and get/get all methods" />
+    <MESSAGE value="fixed array for orders and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed array for orders and methods" />
   </component>
 </project>
