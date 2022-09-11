@@ -9,11 +9,13 @@ public class Order {
 
     // products
     private List<Product> products;
-//    private Product[] products;
 
-    public Order(Integer orderId, List<Product> products) {
+    private List<Customer> customers;
+
+    public Order(Integer orderId, List<Product> products, List<Customer> customers) {
         this.orderId = orderId;
         this.products = products;
+        this.customers = customers;
     }
 
     public int getOrderId() {
@@ -29,6 +31,7 @@ public class Order {
         return "Order{" +
                 "orderId=" + orderId +
                 ", products=" + products +
+                ", customers=" + customers +
                 '}';
     }
 }

@@ -1,7 +1,9 @@
 package Service;
 
+import CustomerRepo.CustomerRepo;
 import OrderRepo.OrderRepo;
 import ProductRepo.ProductRepo;
+import model.Customer;
 import model.Order;
 import model.Product;
 
@@ -12,6 +14,8 @@ public class Service {
     private ProductRepo productRepo = new ProductRepo();
     // orderRepo
     private OrderRepo orderRepo = new OrderRepo();
+
+    private CustomerRepo customerRepo = new CustomerRepo();
 
     // getProduct()
     public Product getProductId(Integer productId) {
@@ -41,5 +45,20 @@ public class Service {
     // listOrders()
     public List<Order> getAllOrders() {
         return orderRepo.listOfOrders();
+    }
+
+    // add customer()
+    public Customer addCustomer(Customer customer) {
+        return customerRepo.addCustomer(customer);
+    }
+
+    // get customer()
+    public Customer getCustomerId(Integer customerId) {
+        return customerRepo.getCustomerById(customerId);
+    }
+
+    // listCustomers()
+    public List<Customer> getAllCustomers() {
+        return customerRepo.listOfCustomers();
     }
 }

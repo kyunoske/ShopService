@@ -1,6 +1,7 @@
 import OrderRepo.OrderRepo;
 import ProductRepo.ProductRepo;
 import Service.Service;
+import model.Customer;
 import model.Order;
 import model.Product;
 
@@ -19,9 +20,18 @@ public class Main {
         productsSmallStore.add(product2);
         productsSmallStore.add(product3);
 
-        Order order1 = new Order(1, List.of(product1, product2, product3));
-        Order order2 = new Order(2, List.of(product1));
-        Order order3 = new Order(3, List.of(product1, product3));
+        Customer customer1 = new Customer(1, "Valentino", "Rossi", "46 The Doctor", "1234-5678");
+        Customer customer2 = new Customer(2, "Troy", "Bayliss", "21 Aussi Way", "1234-5678");
+        Customer customer3 = new Customer(3, "Nicky", "Hayden", "69 Kentucky Kid", "1234-5678");
+
+        Service customersSmallStore = new Service();
+        customersSmallStore.addCustomer(customer1);
+        customersSmallStore.addCustomer(customer2);
+        customersSmallStore.addCustomer(customer3);
+
+        Order order1 = new Order(1, List.of(product1, product2, product3), List.of(customer3));
+        Order order2 = new Order(2, List.of(product1), List.of(customer1));
+        Order order3 = new Order(3, List.of(product1, product3), List.of(customer2));
 
         Service smallStore = new Service();
         smallStore.addOrder(order1);
@@ -33,6 +43,12 @@ public class Main {
 
         // get all products
         System.out.println(productsSmallStore.getAllProducts());
+
+        // get a single customer
+        System.out.println(customersSmallStore.getCustomerId(3));
+
+        // get all customers
+        System.out.println(customersSmallStore.getAllCustomers());
 
         // get a single order
         System.out.println(smallStore.getOrderId(2));
