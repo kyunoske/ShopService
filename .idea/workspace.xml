@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aa82427-c54a-4fa6-bf4b-c3f197affa4d" name="Changes" comment="add test for service getAllProducts and getProductId">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="5aa82427-c54a-4fa6-bf4b-c3f197affa4d" name="Changes" comment="add scanner in main to choose a product.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrderRepo/OrderRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderRepo/OrderRepoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +59,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="OrderRepo" />
       <recent name="Service" />
       <recent name="ProductRepo" />
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.OrderRepoTest.getOrder">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ShopService" />
@@ -72,33 +73,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepoTest.getProductById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderRepoTest.getOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopService" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProductRepo.*" />
+          <option name="PATTERN" value="OrderRepo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ProductRepo" />
-      <option name="MAIN_CLASS_NAME" value="ProductRepo.ProductRepoTest" />
-      <option name="METHOD_NAME" value="getProductById" />
+      <option name="PACKAGE_NAME" value="OrderRepo" />
+      <option name="MAIN_CLASS_NAME" value="OrderRepo.OrderRepoTest" />
+      <option name="METHOD_NAME" value="getOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepoTest.listOfProducts_WhenCalled_ReturnAllProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderRepoTest.listOfOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopService" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProductRepo.*" />
+          <option name="PATTERN" value="OrderRepo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ProductRepo" />
-      <option name="MAIN_CLASS_NAME" value="ProductRepo.ProductRepoTest" />
-      <option name="METHOD_NAME" value="listOfProducts_WhenCalled_ReturnAllProducts" />
+      <option name="PACKAGE_NAME" value="OrderRepo" />
+      <option name="MAIN_CLASS_NAME" value="OrderRepo.OrderRepoTest" />
+      <option name="METHOD_NAME" value="listOfOrders" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderRepoTest.getOrder" />
+        <item itemvalue="JUnit.OrderRepoTest.listOfOrders" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ServiceTest.getProductId" />
         <item itemvalue="JUnit.ServiceTest.getAllProducts" />
-        <item itemvalue="JUnit.ProductRepoTest.getProductById" />
-        <item itemvalue="JUnit.ProductRepoTest.listOfProducts_WhenCalled_ReturnAllProducts" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662974589432</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add scanner in main to choose a product.">
+      <created>1662975132614</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662975132614</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +231,7 @@
     <MESSAGE value="fixed array for orders and methods" />
     <MESSAGE value="add test getAllProducts and getProductById" />
     <MESSAGE value="add test for service getAllProducts and getProductId" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test for service getAllProducts and getProductId" />
+    <MESSAGE value="add scanner in main to choose a product." />
+    <option name="LAST_COMMIT_MESSAGE" value="add scanner in main to choose a product." />
   </component>
 </project>
