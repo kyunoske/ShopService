@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aa82427-c54a-4fa6-bf4b-c3f197affa4d" name="Changes" comment="add order test to getAllOrders and getOrderById">
-      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerRepo/CustomerRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerRepo/CustomerRepoTest.java" afterDir="false" />
+    <list default="true" id="5aa82427-c54a-4fa6-bf4b-c3f197affa4d" name="Changes" comment="add customer test to getAllCustomers and getCustomerById">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Service/ServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerRepoTest">
+  <component name="RunManager" selected="JUnit.ServiceTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ShopService" />
@@ -121,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceTest.getProductId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopService" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +132,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Service" />
       <option name="MAIN_CLASS_NAME" value="Service.ServiceTest" />
-      <option name="METHOD_NAME" value="getProductId" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServiceTest" />
         <item itemvalue="JUnit.CustomerRepoTest" />
         <item itemvalue="JUnit.OrderRepoTest.getOrder" />
         <item itemvalue="JUnit.OrderRepoTest.listOfOrders" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ServiceTest.getProductId" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662975918973</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add customer test to getAllCustomers and getCustomerById">
+      <created>1662976368966</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662976368966</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +247,7 @@
     <MESSAGE value="add test for service getAllProducts and getProductId" />
     <MESSAGE value="add scanner in main to choose a product." />
     <MESSAGE value="add order test to getAllOrders and getOrderById" />
-    <option name="LAST_COMMIT_MESSAGE" value="add order test to getAllOrders and getOrderById" />
+    <MESSAGE value="add customer test to getAllCustomers and getCustomerById" />
+    <option name="LAST_COMMIT_MESSAGE" value="add customer test to getAllCustomers and getCustomerById" />
   </component>
 </project>
