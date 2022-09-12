@@ -7,6 +7,7 @@ import model.Product;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
@@ -38,11 +39,13 @@ public class Main {
         smallStore.addOrder(order2);
         smallStore.addOrder(order3);
 
-        // get a single product
-        System.out.println(productsSmallStore.getProductId(2));
-
         // get all products
         System.out.println(productsSmallStore.getAllProducts());
+
+        Scanner myProduct = new Scanner(System.in);
+        System.out.println("Please choose a product: ");
+        // get a single product
+        System.out.println(productsSmallStore.getProductId(myProduct.nextInt()));
 
         // get a single customer
         System.out.println(customersSmallStore.getCustomerId(3));
