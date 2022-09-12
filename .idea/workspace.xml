@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aa82427-c54a-4fa6-bf4b-c3f197affa4d" name="Changes" comment="add customer and customerRepo and update orders">
+    <list default="true" id="5aa82427-c54a-4fa6-bf4b-c3f197affa4d" name="Changes" comment="add test getAllProducts and getProductById">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +59,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Service" />
       <recent name="ProductRepo" />
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepoTest.getProductById">
+  <component name="RunManager" selected="JUnit.ServiceTest.getProductId">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ShopService" />
@@ -103,6 +104,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceTest.getAllProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.ServiceTest" />
+      <option name="METHOD_NAME" value="getAllProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTest.getProductId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.ServiceTest" />
+      <option name="METHOD_NAME" value="getProductId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ShopService" />
       <method v="2">
@@ -118,6 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ServiceTest.getProductId" />
+        <item itemvalue="JUnit.ServiceTest.getAllProducts" />
         <item itemvalue="JUnit.ProductRepoTest.getProductById" />
         <item itemvalue="JUnit.ProductRepoTest.listOfProducts_WhenCalled_ReturnAllProducts" />
         <item itemvalue="Application.Main" />
@@ -154,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662745116076</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add test getAllProducts and getProductById">
+      <created>1662971552239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662971552239</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +214,7 @@
     <MESSAGE value="add junit" />
     <MESSAGE value="add getters/ setters and get/get all methods" />
     <MESSAGE value="fixed array for orders and methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed array for orders and methods" />
+    <MESSAGE value="add test getAllProducts and getProductById" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test getAllProducts and getProductById" />
   </component>
 </project>
