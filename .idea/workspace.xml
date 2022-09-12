@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aa82427-c54a-4fa6-bf4b-c3f197affa4d" name="Changes" comment="add scanner in main to choose a product.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/OrderRepo/OrderRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderRepo/OrderRepoTest.java" afterDir="false" />
+    <list default="true" id="5aa82427-c54a-4fa6-bf4b-c3f197affa4d" name="Changes" comment="add order test to getAllOrders and getOrderById">
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerRepo/CustomerRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerRepo/CustomerRepoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,16 +59,32 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="CustomerRepo" />
       <recent name="OrderRepo" />
       <recent name="Service" />
       <recent name="ProductRepo" />
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderRepoTest.getOrder">
+  <component name="RunManager" selected="JUnit.CustomerRepoTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ShopService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CustomerRepo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CustomerRepo" />
+      <option name="MAIN_CLASS_NAME" value="CustomerRepo.CustomerRepoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,22 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceTest.getAllProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Service" />
-      <option name="MAIN_CLASS_NAME" value="Service.ServiceTest" />
-      <option name="METHOD_NAME" value="getAllProducts" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServiceTest.getProductId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopService" />
       <extension name="coverage">
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerRepoTest" />
         <item itemvalue="JUnit.OrderRepoTest.getOrder" />
         <item itemvalue="JUnit.OrderRepoTest.listOfOrders" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ServiceTest.getProductId" />
-        <item itemvalue="JUnit.ServiceTest.getAllProducts" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662975132614</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add order test to getAllOrders and getOrderById">
+      <created>1662975918973</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662975918973</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +239,7 @@
     <MESSAGE value="add test getAllProducts and getProductById" />
     <MESSAGE value="add test for service getAllProducts and getProductId" />
     <MESSAGE value="add scanner in main to choose a product." />
-    <option name="LAST_COMMIT_MESSAGE" value="add scanner in main to choose a product." />
+    <MESSAGE value="add order test to getAllOrders and getOrderById" />
+    <option name="LAST_COMMIT_MESSAGE" value="add order test to getAllOrders and getOrderById" />
   </component>
 </project>
